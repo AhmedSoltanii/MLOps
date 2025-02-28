@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/59faa1fb5daa47039a1b1b3317e8f7bf/artifacts
+end_time: 1740717564063
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 59faa1fb5daa47039a1b1b3317e8f7bf
+run_name: receptive-ray-356
+run_uuid: 59faa1fb5daa47039a1b1b3317e8f7bf
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740717563023
+status: 3
+tags: []
+user_id: ahmed

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/cfd64cc35da54746a5fe0d9e7b175e03/artifacts
+end_time: 1740150549149
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: cfd64cc35da54746a5fe0d9e7b175e03
+run_name: rumbling-mule-872
+run_uuid: cfd64cc35da54746a5fe0d9e7b175e03
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740150541896
+status: 3
+tags: []
+user_id: ahmed

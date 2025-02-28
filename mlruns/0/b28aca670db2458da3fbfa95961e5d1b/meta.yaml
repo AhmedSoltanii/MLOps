@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b28aca670db2458da3fbfa95961e5d1b/artifacts
+end_time: 1740691307458
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b28aca670db2458da3fbfa95961e5d1b
+run_name: vaunted-finch-742
+run_uuid: b28aca670db2458da3fbfa95961e5d1b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691302240
+status: 3
+tags: []
+user_id: ahmed

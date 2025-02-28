@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/a10dd0c296324519a74f940e74827755/artifacts
+end_time: 1740694225895
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: a10dd0c296324519a74f940e74827755
+run_name: languid-fawn-136
+run_uuid: a10dd0c296324519a74f940e74827755
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740694224765
+status: 3
+tags: []
+user_id: ahmed

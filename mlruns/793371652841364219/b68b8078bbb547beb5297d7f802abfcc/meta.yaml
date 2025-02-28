@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/b68b8078bbb547beb5297d7f802abfcc/artifacts
+end_time: 1740692942105
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: b68b8078bbb547beb5297d7f802abfcc
+run_name: burly-loon-803
+run_uuid: b68b8078bbb547beb5297d7f802abfcc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740692941037
+status: 3
+tags: []
+user_id: ahmed

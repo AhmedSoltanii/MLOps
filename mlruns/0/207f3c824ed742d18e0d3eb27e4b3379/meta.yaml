@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/207f3c824ed742d18e0d3eb27e4b3379/artifacts
+end_time: 1740689058561
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 207f3c824ed742d18e0d3eb27e4b3379
+run_name: popular-horse-193
+run_uuid: 207f3c824ed742d18e0d3eb27e4b3379
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740689053569
+status: 3
+tags: []
+user_id: ahmed

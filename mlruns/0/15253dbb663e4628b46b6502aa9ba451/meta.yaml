@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/15253dbb663e4628b46b6502aa9ba451/artifacts
+end_time: 1740690818424
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 15253dbb663e4628b46b6502aa9ba451
+run_name: wise-newt-909
+run_uuid: 15253dbb663e4628b46b6502aa9ba451
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740690814059
+status: 3
+tags: []
+user_id: ahmed

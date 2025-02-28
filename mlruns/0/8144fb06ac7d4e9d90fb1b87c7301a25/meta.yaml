@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8144fb06ac7d4e9d90fb1b87c7301a25/artifacts
+end_time: 1740692940936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8144fb06ac7d4e9d90fb1b87c7301a25
+run_name: skillful-turtle-632
+run_uuid: 8144fb06ac7d4e9d90fb1b87c7301a25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740692932757
+status: 3
+tags: []
+user_id: ahmed

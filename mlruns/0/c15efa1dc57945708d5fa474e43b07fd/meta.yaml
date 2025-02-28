@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c15efa1dc57945708d5fa474e43b07fd/artifacts
+end_time: 1740689166644
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c15efa1dc57945708d5fa474e43b07fd
+run_name: sassy-shrike-198
+run_uuid: c15efa1dc57945708d5fa474e43b07fd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740689161977
+status: 3
+tags: []
+user_id: ahmed

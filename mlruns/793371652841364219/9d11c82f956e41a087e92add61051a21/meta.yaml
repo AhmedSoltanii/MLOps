@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/9d11c82f956e41a087e92add61051a21/artifacts
+end_time: 1740730597670
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 9d11c82f956e41a087e92add61051a21
+run_name: Model_Training
+run_uuid: 9d11c82f956e41a087e92add61051a21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740730587139
+status: 3
+tags: []
+user_id: ahmed

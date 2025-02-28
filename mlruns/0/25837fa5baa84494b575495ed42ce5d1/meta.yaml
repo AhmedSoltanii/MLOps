@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/25837fa5baa84494b575495ed42ce5d1/artifacts
+end_time: 1740693653050
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 25837fa5baa84494b575495ed42ce5d1
+run_name: awesome-worm-732
+run_uuid: 25837fa5baa84494b575495ed42ce5d1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740693645917
+status: 3
+tags: []
+user_id: ahmed

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3d3a9e7490d74512afb29e3d0b30803a/artifacts
+end_time: 1740694224658
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3d3a9e7490d74512afb29e3d0b30803a
+run_name: flawless-perch-275
+run_uuid: 3d3a9e7490d74512afb29e3d0b30803a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740694217070
+status: 3
+tags: []
+user_id: ahmed

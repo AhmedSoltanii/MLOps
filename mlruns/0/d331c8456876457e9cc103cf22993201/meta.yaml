@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d331c8456876457e9cc103cf22993201/artifacts
+end_time: 1740692122763
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d331c8456876457e9cc103cf22993201
+run_name: dapper-ray-845
+run_uuid: d331c8456876457e9cc103cf22993201
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740692118207
+status: 3
+tags: []
+user_id: ahmed

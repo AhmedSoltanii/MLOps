@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/8b80e22963f74fe499b96976fcc7731c/artifacts
+end_time: 1740684849546
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 8b80e22963f74fe499b96976fcc7731c
+run_name: orderly-shrike-379
+run_uuid: 8b80e22963f74fe499b96976fcc7731c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740684842701
+status: 3
+tags: []
+user_id: ahmed

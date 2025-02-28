@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/b812340075f84d048caaf235e2a0b983/artifacts
+end_time: 1740689175131
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b812340075f84d048caaf235e2a0b983
+run_name: shivering-chimp-469
+run_uuid: b812340075f84d048caaf235e2a0b983
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740689170429
+status: 3
+tags: []
+user_id: ahmed

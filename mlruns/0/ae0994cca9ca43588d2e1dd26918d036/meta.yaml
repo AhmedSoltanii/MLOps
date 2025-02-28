@@ -1,0 +1,16 @@
+artifact_uri: mlflow-artifacts:/0/ae0994cca9ca43588d2e1dd26918d036/artifacts
+deleted_time: 1740718055793
+end_time: 1740717752474
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: ae0994cca9ca43588d2e1dd26918d036
+run_name: Model_Training
+run_uuid: ae0994cca9ca43588d2e1dd26918d036
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740717743488
+status: 3
+tags: []
+user_id: ahmed

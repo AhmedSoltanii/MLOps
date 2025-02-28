@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/20509159e5954030a2b8fc24158555f4/artifacts
+end_time: 1740688320227
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 20509159e5954030a2b8fc24158555f4
+run_name: colorful-trout-275
+run_uuid: 20509159e5954030a2b8fc24158555f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740688314957
+status: 4
+tags: []
+user_id: ahmed

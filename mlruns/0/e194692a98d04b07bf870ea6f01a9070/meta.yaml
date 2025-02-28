@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/e194692a98d04b07bf870ea6f01a9070/artifacts
+end_time: 1740691299166
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e194692a98d04b07bf870ea6f01a9070
+run_name: flawless-gull-364
+run_uuid: e194692a98d04b07bf870ea6f01a9070
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691294079
+status: 3
+tags: []
+user_id: ahmed

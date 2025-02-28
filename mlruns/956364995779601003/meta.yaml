@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/956364995779601003
+creation_time: 1740738002442
+experiment_id: '956364995779601003'
+last_update_time: 1740738002442
+lifecycle_stage: active
+name: Churn Prediction - KNN Classifier

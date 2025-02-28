@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/4a92e823d53442e791a16c0284042137/artifacts
+end_time: 1740150123205
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 4a92e823d53442e791a16c0284042137
+run_name: monumental-snake-973
+run_uuid: 4a92e823d53442e791a16c0284042137
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740150115745
+status: 3
+tags: []
+user_id: ahmed

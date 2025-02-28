@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/3b83ff34e4534c6eab2a22d947584425/artifacts
+end_time: 1740150123378
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 3b83ff34e4534c6eab2a22d947584425
+run_name: dazzling-pig-164
+run_uuid: 3b83ff34e4534c6eab2a22d947584425
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740150123350
+status: 3
+tags: []
+user_id: ahmed

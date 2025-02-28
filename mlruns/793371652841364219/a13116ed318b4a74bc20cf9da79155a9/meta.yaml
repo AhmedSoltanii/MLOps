@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/a13116ed318b4a74bc20cf9da79155a9/artifacts
+end_time: 1740691554138
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: a13116ed318b4a74bc20cf9da79155a9
+run_name: funny-pug-183
+run_uuid: a13116ed318b4a74bc20cf9da79155a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691554122
+status: 3
+tags: []
+user_id: ahmed

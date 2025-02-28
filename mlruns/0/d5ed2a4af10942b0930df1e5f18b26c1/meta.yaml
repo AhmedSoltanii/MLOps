@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/d5ed2a4af10942b0930df1e5f18b26c1/artifacts
+end_time: 1740691986693
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d5ed2a4af10942b0930df1e5f18b26c1
+run_name: clumsy-shrew-747
+run_uuid: d5ed2a4af10942b0930df1e5f18b26c1
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691982120
+status: 3
+tags: []
+user_id: ahmed

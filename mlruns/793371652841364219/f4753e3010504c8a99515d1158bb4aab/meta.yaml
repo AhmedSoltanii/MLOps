@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/f4753e3010504c8a99515d1158bb4aab/artifacts
+end_time: 1740150054948
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: f4753e3010504c8a99515d1158bb4aab
+run_name: exultant-flea-716
+run_uuid: f4753e3010504c8a99515d1158bb4aab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740150046058
+status: 3
+tags: []
+user_id: ahmed

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/36bc25f874e64e2d8a3f6572108f165c/artifacts
+end_time: 1740688901397
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 36bc25f874e64e2d8a3f6572108f165c
+run_name: nervous-lark-886
+run_uuid: 36bc25f874e64e2d8a3f6572108f165c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740688896474
+status: 3
+tags: []
+user_id: ahmed

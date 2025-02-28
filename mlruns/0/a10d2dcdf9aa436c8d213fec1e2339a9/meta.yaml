@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/a10d2dcdf9aa436c8d213fec1e2339a9/artifacts
+end_time: 1740689394076
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: a10d2dcdf9aa436c8d213fec1e2339a9
+run_name: popular-foal-282
+run_uuid: a10d2dcdf9aa436c8d213fec1e2339a9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740689388948
+status: 3
+tags: []
+user_id: ahmed

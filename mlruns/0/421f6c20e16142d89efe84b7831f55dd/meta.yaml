@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/421f6c20e16142d89efe84b7831f55dd/artifacts
+end_time: 1740691407350
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 421f6c20e16142d89efe84b7831f55dd
+run_name: nosy-donkey-149
+run_uuid: 421f6c20e16142d89efe84b7831f55dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691402431
+status: 3
+tags: []
+user_id: ahmed

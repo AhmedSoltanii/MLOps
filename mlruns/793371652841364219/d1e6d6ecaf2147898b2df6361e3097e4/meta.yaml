@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/d1e6d6ecaf2147898b2df6361e3097e4/artifacts
+end_time: 1740684814359
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: d1e6d6ecaf2147898b2df6361e3097e4
+run_name: orderly-bug-655
+run_uuid: d1e6d6ecaf2147898b2df6361e3097e4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740684814350
+status: 3
+tags: []
+user_id: ahmed

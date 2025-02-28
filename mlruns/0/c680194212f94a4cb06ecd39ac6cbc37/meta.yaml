@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/c680194212f94a4cb06ecd39ac6cbc37/artifacts
+end_time: 1740691554052
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c680194212f94a4cb06ecd39ac6cbc37
+run_name: silent-moose-81
+run_uuid: c680194212f94a4cb06ecd39ac6cbc37
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691548284
+status: 3
+tags: []
+user_id: ahmed

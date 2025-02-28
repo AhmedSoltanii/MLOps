@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8ba01ddd7e2a49bb9171feb20db9ab5a/artifacts
+end_time: 1740691249399
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8ba01ddd7e2a49bb9171feb20db9ab5a
+run_name: wistful-ant-643
+run_uuid: 8ba01ddd7e2a49bb9171feb20db9ab5a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691244565
+status: 3
+tags: []
+user_id: ahmed

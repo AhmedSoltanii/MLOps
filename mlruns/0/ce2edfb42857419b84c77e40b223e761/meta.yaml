@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/ce2edfb42857419b84c77e40b223e761/artifacts
+end_time: 1740689049299
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ce2edfb42857419b84c77e40b223e761
+run_name: valuable-cat-524
+run_uuid: ce2edfb42857419b84c77e40b223e761
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740689044584
+status: 3
+tags: []
+user_id: ahmed

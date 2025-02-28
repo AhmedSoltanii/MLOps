@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/a248d986ea814a2da5a7601fdfd83ee0/artifacts
+end_time: 1740694359004
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: a248d986ea814a2da5a7601fdfd83ee0
+run_name: rebellious-finch-346
+run_uuid: a248d986ea814a2da5a7601fdfd83ee0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740694357954
+status: 3
+tags: []
+user_id: ahmed

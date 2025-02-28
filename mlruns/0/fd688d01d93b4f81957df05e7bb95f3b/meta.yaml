@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/fd688d01d93b4f81957df05e7bb95f3b/artifacts
+end_time: 1740694411298
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: fd688d01d93b4f81957df05e7bb95f3b
+run_name: marvelous-frog-747
+run_uuid: fd688d01d93b4f81957df05e7bb95f3b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740694403737
+status: 3
+tags: []
+user_id: ahmed

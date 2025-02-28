@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/398dece7094649b3ab4cd4a8cd3d455a/artifacts
+end_time: 1740688901510
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 398dece7094649b3ab4cd4a8cd3d455a
+run_name: unruly-vole-25
+run_uuid: 398dece7094649b3ab4cd4a8cd3d455a
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740688901496
+status: 4
+tags: []
+user_id: ahmed

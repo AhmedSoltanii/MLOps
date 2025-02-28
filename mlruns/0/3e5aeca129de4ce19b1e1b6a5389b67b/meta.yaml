@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/3e5aeca129de4ce19b1e1b6a5389b67b/artifacts
+end_time: 1740717467472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 3e5aeca129de4ce19b1e1b6a5389b67b
+run_name: blushing-snipe-285
+run_uuid: 3e5aeca129de4ce19b1e1b6a5389b67b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740717455467
+status: 4
+tags: []
+user_id: ahmed

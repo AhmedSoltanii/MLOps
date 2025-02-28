@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/2264144c3c2f45af969b4aa700ed3476/artifacts
+end_time: 1740684803267
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 2264144c3c2f45af969b4aa700ed3476
+run_name: whimsical-koi-849
+run_uuid: 2264144c3c2f45af969b4aa700ed3476
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740684797244
+status: 3
+tags: []
+user_id: ahmed

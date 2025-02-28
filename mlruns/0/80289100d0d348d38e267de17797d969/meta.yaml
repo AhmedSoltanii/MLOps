@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/80289100d0d348d38e267de17797d969/artifacts
+end_time: 1740717562944
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 80289100d0d348d38e267de17797d969
+run_name: silent-crow-185
+run_uuid: 80289100d0d348d38e267de17797d969
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740717554354
+status: 3
+tags: []
+user_id: ahmed

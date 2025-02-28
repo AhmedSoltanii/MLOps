@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/16b6c43c6421401b805a5d1823bd6443/artifacts
+end_time: 1740693776060
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 16b6c43c6421401b805a5d1823bd6443
+run_name: illustrious-flea-349
+run_uuid: 16b6c43c6421401b805a5d1823bd6443
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740693769497
+status: 3
+tags: []
+user_id: ahmed

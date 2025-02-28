@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/bc32a365ae7a4732bfe69d78284659e7/artifacts
+end_time: 1740691060447
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bc32a365ae7a4732bfe69d78284659e7
+run_name: sedate-calf-38
+run_uuid: bc32a365ae7a4732bfe69d78284659e7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691053239
+status: 3
+tags: []
+user_id: ahmed

@@ -1,0 +1,15 @@
+artifact_uri: file:///home/ahmed/soltani-ahmed-4ds2-ml_project/mlruns/793371652841364219/1d325a2a66564d93b951ea3c41ea9281/artifacts
+end_time: 1740691407433
+entry_point_name: ''
+experiment_id: '793371652841364219'
+lifecycle_stage: active
+run_id: 1d325a2a66564d93b951ea3c41ea9281
+run_name: intrigued-skink-759
+run_uuid: 1d325a2a66564d93b951ea3c41ea9281
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691407418
+status: 3
+tags: []
+user_id: ahmed

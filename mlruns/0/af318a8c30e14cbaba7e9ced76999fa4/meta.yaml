@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/af318a8c30e14cbaba7e9ced76999fa4/artifacts
+end_time: 1740694436027
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: af318a8c30e14cbaba7e9ced76999fa4
+run_name: carefree-moth-324
+run_uuid: af318a8c30e14cbaba7e9ced76999fa4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740694427635
+status: 3
+tags: []
+user_id: ahmed

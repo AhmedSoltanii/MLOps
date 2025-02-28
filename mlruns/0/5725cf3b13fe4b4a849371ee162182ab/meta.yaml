@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/5725cf3b13fe4b4a849371ee162182ab/artifacts
+end_time: 1740688419022
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 5725cf3b13fe4b4a849371ee162182ab
+run_name: legendary-stork-8
+run_uuid: 5725cf3b13fe4b4a849371ee162182ab
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740688413544
+status: 4
+tags: []
+user_id: ahmed

@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/0/8aca1775101849dc9ebb0a6a3323c500/artifacts
+end_time: 1740691224936
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 8aca1775101849dc9ebb0a6a3323c500
+run_name: redolent-skunk-204
+run_uuid: 8aca1775101849dc9ebb0a6a3323c500
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1740691219914
+status: 3
+tags: []
+user_id: ahmed
