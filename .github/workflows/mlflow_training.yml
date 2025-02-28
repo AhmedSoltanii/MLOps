@@ -1,0 +1,90 @@
+name: MLflow Model Training & Evaluation
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:  # Manually trigger workflow
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight UTC
+
+jobs:
+  train_and_evaluate:
+    runs-on: ubuntu-latest  # Run on Ubuntu environment
+
+    steps:
+    # Step 1: Checkout the repository
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    # Step 2: Set up Python environment
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Install dependencies from requirements.txt
+        pip install mlflow psutil  # Install MLflow and psutil for logging system metrics
+
+    # Step 4: Run unit tests (Optional but recommended)
+    - name: Run tests (Optional)
+      run: |
+        pip install pytest  # Install pytest
+        pytest tests/  # Run tests located in the 'tests' folder
+
+    # Step 5: Set up MLflow environment (ensuring dependencies are available)
+    - name: Set up MLflow environment
+      run: |
+        pip install mlflow
+        pip install psutil
+
+    # Step 6: Run model pipeline (training and evaluation)
+    - name: Run model pipeline
+      run: |
+        python main.py train  # Train the model
+        python main.py evaluate  # Evaluate the model
+
+    # Step 7: Validate Model Performance
+    - name: Validate Model Performance
+      run: |
+        accuracy=$(python -c "from main import evaluate_knn; from model_pipeline import prepare_data; data = prepare_data(); model = train_model(data['x_train'], data['y_train']); evaluate_knn(model, data['x_test'], data['y_test'])" | grep "Accuracy" | awk '{print $2}')
+        
+        if (( $(echo "$accuracy < 0.80" | bc -l) )); then
+          echo "Model accuracy is too low: $accuracy"
+          exit 1  # Fail the pipeline if accuracy is lower than 0.80
+        else
+          echo "Model accuracy is sufficient: $accuracy"
+        fi
+
+    # Step 8: Save model artifact to MLflow
+    - name: Save model artifact to MLflow
+      run: |
+        mlflow.log_artifact("churn_model.pkl")  # Log the model artifact
+
+    # Step 9: Notify Slack (Optional) - Send failure notifications to Slack
+    - name: Notify Slack (On Failure)
+      if: failure()  # This runs only if the previous steps fail
+      uses: rtCamp/action-slack-notify@v2
+      with:
+        status: failure
+        slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}  # Use Slack Webhook URL from secrets
+        message: "GitHub Actions failed! Check the logs."
+
+    # Step 10: Upload Model to S3 (Optional) - Store model in AWS S3
+    - name: Upload Model to S3
+      run: |
+        pip install awscli  # Install AWS CLI
+        aws s3 cp churn_model.pkl s3://your-bucket-name/churn_model.pkl  # Upload model to S3
+
+    # Step 11: Run MLflow UI (Optional) - Expose MLflow UI locally or to the server
+    - name: Run MLflow UI (Optional)
+      run: |
+        mlflow ui --host 0.0.0.0 --port 5000 &  # Start the MLflow UI
+        sleep 5  # Allow some time for MLflow to start
