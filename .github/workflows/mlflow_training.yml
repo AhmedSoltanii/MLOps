@@ -45,7 +45,6 @@ jobs:
         pip install mlflow
         pip install psutil
 
-
     # Step 9: Run MLflow UI (Optional) - Expose MLflow UI locally or to the server
     - name: Run MLflow UI (Optional)
       run: |
