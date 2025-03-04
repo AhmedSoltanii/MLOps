@@ -69,7 +69,7 @@ jobs:
         mlflow.log_artifact("churn_model.pkl")  # Log the model artifact
 
 
-    # Step 11: Run MLflow UI (Optional) - Expose MLflow UI locally or to the server
+    # Step 9: Run MLflow UI (Optional) - Expose MLflow UI locally or to the server
     - name: Run MLflow UI (Optional)
       run: |
         mlflow ui --host 0.0.0.0 --port 5000 &  # Start the MLflow UI
