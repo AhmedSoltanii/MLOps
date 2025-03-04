@@ -48,8 +48,8 @@ jobs:
     # Step 6: Run model pipeline (training and evaluation)
     - name: Run model pipeline
       run: |
-        python main.py train  # Train the model
-        python main.py evaluate  # Evaluate the model
+        source venv/bin/activate
+        python3 main.py  # Evaluate the model
 
     # Step 7: Validate Model Performance
     - name: Validate Model Performance
