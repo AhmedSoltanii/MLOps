@@ -68,20 +68,6 @@ jobs:
       run: |
         mlflow.log_artifact("churn_model.pkl")  # Log the model artifact
 
-    # Step 9: Notify Slack (Optional) - Send failure notifications to Slack
-    - name: Notify Slack (On Failure)
-      if: failure()  # This runs only if the previous steps fail
-      uses: rtCamp/action-slack-notify@v2
-      with:
-        status: failure
-        slack_webhook_url: ${{ secrets.SLACK_WEBHOOK_URL }}  # Use Slack Webhook URL from secrets
-        message: "GitHub Actions failed! Check the logs."
-
-    # Step 10: Upload Model to S3 (Optional) - Store model in AWS S3
-    - name: Upload Model to S3
-      run: |
-        pip install awscli  # Install AWS CLI
-        aws s3 cp churn_model.pkl s3://your-bucket-name/churn_model.pkl  # Upload model to S3
 
     # Step 11: Run MLflow UI (Optional) - Expose MLflow UI locally or to the server
     - name: Run MLflow UI (Optional)
