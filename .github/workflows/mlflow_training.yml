@@ -32,7 +32,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt  # Install dependencies from requirements.txt
         pip install mlflow psutil  # Install MLflow and psutil for logging system metrics
-
+	
     # Step 4: Run unit tests (Optional but recommended)
     - name: Run tests (Optional)
       run: |
@@ -44,6 +44,13 @@ jobs:
       run: |
         pip install mlflow
         pip install psutil
+
+
+    # Step 9: Run MLflow UI (Optional) - Expose MLflow UI locally or to the server
+    - name: Run MLflow UI (Optional)
+      run: |
+        mlflow ui --host 127.0.0.0 --port 5000 &  # Start the MLflow UI
+        sleep 5  # Allow some time for MLflow to start
 
     # Step 6: Run model pipeline (training and evaluation)
     - name: Run model pipeline
@@ -69,8 +76,3 @@ jobs:
         mlflow.log_artifact("churn_model.pkl")  # Log the model artifact
 
 
-    # Step 9: Run MLflow UI (Optional) - Expose MLflow UI locally or to the server
-    - name: Run MLflow UI (Optional)
-      run: |
-        mlflow ui --host 0.0.0.0 --port 5000 &  # Start the MLflow UI
-        sleep 5  # Allow some time for MLflow to start
