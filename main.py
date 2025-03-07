@@ -11,6 +11,27 @@ from model_pipeline import (
     save_model,
     load_model,
 )
+from elasticsearch import Elasticsearch
+
+# Connect to Elasticsearch
+es = Elasticsearch(["http://localhost:9200"])
+
+# Check Elasticsearch connection
+if es.ping():
+    print("Connected to Elasticsearch")
+else:
+    print("Could not connect to Elasticsearch")
+
+
+def log_to_elasticsearch(run_id, metrics, params):
+    """Logs metrics and params to Elasticsearch."""
+    log_entry = {
+        "run_id": run_id,
+        "timestamp": time.time(),
+        "metrics": metrics,
+        "params": params,
+    }
+    es.index(index="mlflow-logs", document=log_entry)
 
 
 def get_system_metrics():
@@ -32,7 +53,11 @@ def main():
         time.sleep(15)
 
         print("\n=== Logging system metrics before training ===")
-        mlflow.log_metrics(get_system_metrics())
+        system_metrics = get_system_metrics()
+        mlflow.log_metrics(system_metrics)
+
+        # Log system metrics to Elasticsearch
+        log_to_elasticsearch(mlflow.active_run().info.run_id, system_metrics, {})
 
         print("\n=== Preparing data ===")
         X_train, y_train, X_test, y_test, encoder, scaler = prepare_data()
@@ -53,7 +78,13 @@ def main():
         mlflow.log_params(model_params)
 
         print("\n=== Logging system metrics after training ===")
-        mlflow.log_metrics(get_system_metrics())
+        system_metrics = get_system_metrics()
+        mlflow.log_metrics(system_metrics)
+
+        # Log system metrics to Elasticsearch
+        log_to_elasticsearch(
+            mlflow.active_run().info.run_id, system_metrics, model_params
+        )
 
         print("\n=== Evaluating model ===")
         accuracy, classification_report = evaluate_model(model, X_test, y_test)
@@ -68,7 +99,13 @@ def main():
         )
 
         print("\n=== Logging system metrics after evaluation ===")
-        mlflow.log_metrics(get_system_metrics())
+        system_metrics = get_system_metrics()
+        mlflow.log_metrics(system_metrics)
+
+        # Log system metrics to Elasticsearch
+        log_to_elasticsearch(
+            mlflow.active_run().info.run_id, system_metrics, classification_report
+        )
 
         print("\n=== Saving model ===")
         save_model(model, encoder, scaler, "knn_model.pkl")
@@ -95,7 +132,11 @@ def main():
         )
 
         print("\n=== Logging final system metrics ===")
-        mlflow.log_metrics(get_system_metrics())
+        system_metrics = get_system_metrics()
+        mlflow.log_metrics(system_metrics)
+
+        # Log system metrics to Elasticsearch
+        log_to_elasticsearch(mlflow.active_run().info.run_id, system_metrics, {})
 
         print("\n=== MLflow Run ID ===")
         print(f"Run ID: {mlflow.active_run().info.run_id}")

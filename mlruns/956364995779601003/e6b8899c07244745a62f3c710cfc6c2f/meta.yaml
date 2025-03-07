@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/956364995779601003/e6b8899c07244745a62f3c710cfc6c2f/artifacts
+end_time: 1741338653988
+entry_point_name: ''
+experiment_id: '956364995779601003'
+lifecycle_stage: active
+run_id: e6b8899c07244745a62f3c710cfc6c2f
+run_name: KNN Classifier Baseline
+run_uuid: e6b8899c07244745a62f3c710cfc6c2f
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1741338637885
+status: 4
+tags: []
+user_id: ahmed
